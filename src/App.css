@@ -1,38 +1,115 @@
-.App {
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 15px 8px 15px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+
+.sidenav div:hover {
+  background-color: #584343;
+}
+.logo-clg{
+  width: 60%;
+
+}
+.logoName{
+  display: flex;
+  justify-content: center;
+}
+.StdMan{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.finance{
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.control{
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.report{
+  text-align: center;
+}
+.sidenav a{
+  font-size: small;
+}
+.attendance{
+  text-align: center;
+}
+.icon{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.conntent h3{
+  margin:0px;
+  padding: 3% 2% 1% 2%;
+  background-color: #a89696;
 }
+.cards{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+}
+.Regular span{
+  float: right;
+  padding-right: 2%;
+  font-size:50px;
+}
+.Regular{
+  padding: 4%;
+  margin: 4%;
+  border: black 2px solid;
+  border-radius: 20px;
+}
+.Regular p{
+  float: right;
+  font-size: large;
+  font-weight: 700;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.icon-card{
+  font-size: 70px;
+  color: aliceblue;
+}
+.secall{
+  font-size: 90px;
+}
+.Section{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-around;
+}
+.seccontain{
+  margin: 4%;
+  padding: 4%;text-align: center;
+}
+.head{
+  text-align: center;
+}
+.seccontain1{
+  padding: 2%;
+  text-align: center;
+}
+.secall:hover{
+  zoom: 103%;
+  transition: 2s;
+}
+.Regular:hover{
+  background-color: #5e5151;
+  zoom: 101%;
+}
+.icon a{
+  color: #a89696;
+}
+.seccontain p{
+  font-weight: 500;
 }
