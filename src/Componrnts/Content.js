@@ -60,7 +60,7 @@ function Content() {
                 </div>
                 <div className="seccontain">
                     <AiTwotoneMail className="secall" />
-                    <p>SMA/Mail</p>
+                    <p>SMS/Mail</p>
                 </div>
                 <div className="seccontain">
                     <MdRestorePage className="secall" />
